@@ -1,0 +1,3638 @@
+{
+  "source_sha256": "03dfc0c8a345bcc1b89bab98f05dc5d4f2849692694ce2703fee1b2c36d40231",
+  "full_analysis": {
+    "calendar": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "n_calendar_slots": 12,
+    "centers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "excluded_centers": [],
+    "min_days": 3,
+    "min_points": 2,
+    "tie_tolerance": 1e-09,
+    "budget": 1000000,
+    "segments_considered": 55,
+    "budget_exhausted": false,
+    "segment_cost_table": [
+      {
+        "start_index": 0,
+        "end_index": 3,
+        "start_day": 0,
+        "end_day_exclusive": 2,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 4,
+        "start_day": 0,
+        "end_day_exclusive": 3,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 5,
+        "start_day": 0,
+        "end_day_exclusive": 4,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 6,
+        "start_day": 0,
+        "end_day_exclusive": 5,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 7,
+        "start_day": 0,
+        "end_day_exclusive": 6,
+        "length_slots": 7,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 8,
+        "start_day": 0,
+        "end_day_exclusive": 7,
+        "length_slots": 8,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 9,
+        "start_day": 0,
+        "end_day_exclusive": 8,
+        "length_slots": 9,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 10,
+        "start_day": 0,
+        "end_day_exclusive": 9,
+        "length_slots": 10,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 11,
+        "start_day": 0,
+        "end_day_exclusive": 10,
+        "length_slots": 11,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 0,
+        "end_index": 12,
+        "start_day": 0,
+        "end_day_exclusive": 11,
+        "length_slots": 12,
+        "feasible": true,
+        "infeasible_reasons": [],
+        "cost": 19.80327744402257,
+        "per_center": {
+          "a": {
+            "intercept": 9.64656381486676,
+            "slope": 0.3482468443197759,
+            "origin_day": 0,
+            "records": 11,
+            "distinct_days": 11,
+            "weight": 44.0,
+            "residual_cost": 11.680224403921784,
+            "support_record_ids": [
+              "a-0",
+              "a-1",
+              "a-3",
+              "a-4",
+              "a-5",
+              "a-6",
+              "a-7",
+              "a-8",
+              "a-9",
+              "a-10",
+              "a-11"
+            ]
+          },
+          "b": {
+            "intercept": 19.74152652005175,
+            "slope": 0.3200517464424316,
+            "origin_day": 0,
+            "records": 11,
+            "distinct_days": 11,
+            "weight": 44.0,
+            "residual_cost": 8.123053040100785,
+            "support_record_ids": [
+              "b-0",
+              "b-1",
+              "b-2",
+              "b-3",
+              "b-5",
+              "b-6",
+              "b-7",
+              "b-8",
+              "b-9",
+              "b-10",
+              "b-11"
+            ]
+          },
+          "c": {
+            "intercept": 30.0,
+            "slope": 0.10000000000000019,
+            "origin_day": 0,
+            "records": 2,
+            "distinct_days": 2,
+            "weight": 8.0,
+            "residual_cost": 0.0,
+            "support_record_ids": [
+              "c-0",
+              "c-11"
+            ]
+          }
+        },
+        "support_record_ids": [
+          "a-0",
+          "a-1",
+          "a-10",
+          "a-11",
+          "a-3",
+          "a-4",
+          "a-5",
+          "a-6",
+          "a-7",
+          "a-8",
+          "a-9",
+          "b-0",
+          "b-1",
+          "b-10",
+          "b-11",
+          "b-2",
+          "b-3",
+          "b-5",
+          "b-6",
+          "b-7",
+          "b-8",
+          "b-9",
+          "c-0",
+          "c-11"
+        ]
+      },
+      {
+        "start_index": 1,
+        "end_index": 4,
+        "start_day": 1,
+        "end_day_exclusive": 3,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 5,
+        "start_day": 1,
+        "end_day_exclusive": 4,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 6,
+        "start_day": 1,
+        "end_day_exclusive": 5,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 7,
+        "start_day": 1,
+        "end_day_exclusive": 6,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 8,
+        "start_day": 1,
+        "end_day_exclusive": 7,
+        "length_slots": 7,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 9,
+        "start_day": 1,
+        "end_day_exclusive": 8,
+        "length_slots": 8,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 10,
+        "start_day": 1,
+        "end_day_exclusive": 9,
+        "length_slots": 9,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 11,
+        "start_day": 1,
+        "end_day_exclusive": 10,
+        "length_slots": 10,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 1,
+        "end_index": 12,
+        "start_day": 1,
+        "end_day_exclusive": 11,
+        "length_slots": 11,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 5,
+        "start_day": 2,
+        "end_day_exclusive": 4,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 6,
+        "start_day": 2,
+        "end_day_exclusive": 5,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 7,
+        "start_day": 2,
+        "end_day_exclusive": 6,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 8,
+        "start_day": 2,
+        "end_day_exclusive": 7,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 9,
+        "start_day": 2,
+        "end_day_exclusive": 8,
+        "length_slots": 7,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 10,
+        "start_day": 2,
+        "end_day_exclusive": 9,
+        "length_slots": 8,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 11,
+        "start_day": 2,
+        "end_day_exclusive": 10,
+        "length_slots": 9,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 2,
+        "end_index": 12,
+        "start_day": 2,
+        "end_day_exclusive": 11,
+        "length_slots": 10,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 6,
+        "start_day": 3,
+        "end_day_exclusive": 5,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 7,
+        "start_day": 3,
+        "end_day_exclusive": 6,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 8,
+        "start_day": 3,
+        "end_day_exclusive": 7,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 9,
+        "start_day": 3,
+        "end_day_exclusive": 8,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 10,
+        "start_day": 3,
+        "end_day_exclusive": 9,
+        "length_slots": 7,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 11,
+        "start_day": 3,
+        "end_day_exclusive": 10,
+        "length_slots": 8,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 3,
+        "end_index": 12,
+        "start_day": 3,
+        "end_day_exclusive": 11,
+        "length_slots": 9,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 4,
+        "end_index": 7,
+        "start_day": 4,
+        "end_day_exclusive": 6,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 4,
+        "end_index": 8,
+        "start_day": 4,
+        "end_day_exclusive": 7,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 4,
+        "end_index": 9,
+        "start_day": 4,
+        "end_day_exclusive": 8,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 4,
+        "end_index": 10,
+        "start_day": 4,
+        "end_day_exclusive": 9,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 4,
+        "end_index": 11,
+        "start_day": 4,
+        "end_day_exclusive": 10,
+        "length_slots": 7,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 4,
+        "end_index": 12,
+        "start_day": 4,
+        "end_day_exclusive": 11,
+        "length_slots": 8,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 5,
+        "end_index": 8,
+        "start_day": 5,
+        "end_day_exclusive": 7,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 5,
+        "end_index": 9,
+        "start_day": 5,
+        "end_day_exclusive": 8,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 5,
+        "end_index": 10,
+        "start_day": 5,
+        "end_day_exclusive": 9,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 5,
+        "end_index": 11,
+        "start_day": 5,
+        "end_day_exclusive": 10,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 5,
+        "end_index": 12,
+        "start_day": 5,
+        "end_day_exclusive": 11,
+        "length_slots": 7,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 6,
+        "end_index": 9,
+        "start_day": 6,
+        "end_day_exclusive": 8,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 6,
+        "end_index": 10,
+        "start_day": 6,
+        "end_day_exclusive": 9,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 6,
+        "end_index": 11,
+        "start_day": 6,
+        "end_day_exclusive": 10,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 6,
+        "end_index": 12,
+        "start_day": 6,
+        "end_day_exclusive": 11,
+        "length_slots": 6,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 7,
+        "end_index": 10,
+        "start_day": 7,
+        "end_day_exclusive": 9,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 7,
+        "end_index": 11,
+        "start_day": 7,
+        "end_day_exclusive": 10,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 7,
+        "end_index": 12,
+        "start_day": 7,
+        "end_day_exclusive": 11,
+        "length_slots": 5,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 8,
+        "end_index": 11,
+        "start_day": 8,
+        "end_day_exclusive": 10,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 8,
+        "end_index": 12,
+        "start_day": 8,
+        "end_day_exclusive": 11,
+        "length_slots": 4,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      },
+      {
+        "start_index": 9,
+        "end_index": 12,
+        "start_day": 9,
+        "end_day_exclusive": 11,
+        "length_slots": 3,
+        "feasible": false,
+        "infeasible_reasons": [
+          "min_points:c"
+        ],
+        "cost": null,
+        "per_center": {},
+        "support_record_ids": []
+      }
+    ],
+    "dp_tables": {
+      "0": [
+        {
+          "end_index": 0,
+          "end_day": null,
+          "feasible": true,
+          "objective": 0.0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 1,
+          "end_day": 0,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 2,
+          "end_day": 1,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 3,
+          "end_day": 2,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 4,
+          "end_day": 3,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 5,
+          "end_day": 4,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 6,
+          "end_day": 5,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 7,
+          "end_day": 6,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 8,
+          "end_day": 7,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 9,
+          "end_day": 8,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 10,
+          "end_day": 9,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 11,
+          "end_day": 10,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 12,
+          "end_day": 11,
+          "feasible": true,
+          "objective": 19.80327744402257,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": 0,
+          "last_segment_cost": 19.80327744402257
+        }
+      ],
+      "1": [
+        {
+          "end_index": 0,
+          "end_day": null,
+          "feasible": true,
+          "objective": 0.0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 1,
+          "end_day": 0,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 2,
+          "end_day": 1,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 3,
+          "end_day": 2,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 4,
+          "end_day": 3,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 5,
+          "end_day": 4,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 6,
+          "end_day": 5,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 7,
+          "end_day": 6,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 8,
+          "end_day": 7,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 9,
+          "end_day": 8,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 10,
+          "end_day": 9,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 11,
+          "end_day": 10,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 12,
+          "end_day": 11,
+          "feasible": true,
+          "objective": 19.80327744402257,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": 0,
+          "last_segment_cost": 19.80327744402257
+        }
+      ],
+      "5": [
+        {
+          "end_index": 0,
+          "end_day": null,
+          "feasible": true,
+          "objective": 0.0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 1,
+          "end_day": 0,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 2,
+          "end_day": 1,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 3,
+          "end_day": 2,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 4,
+          "end_day": 3,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 5,
+          "end_day": 4,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 6,
+          "end_day": 5,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 7,
+          "end_day": 6,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 8,
+          "end_day": 7,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 9,
+          "end_day": 8,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 10,
+          "end_day": 9,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 11,
+          "end_day": 10,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 12,
+          "end_day": 11,
+          "feasible": true,
+          "objective": 19.80327744402257,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": 0,
+          "last_segment_cost": 19.80327744402257
+        }
+      ],
+      "20": [
+        {
+          "end_index": 0,
+          "end_day": null,
+          "feasible": true,
+          "objective": 0.0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 1,
+          "end_day": 0,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 2,
+          "end_day": 1,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 3,
+          "end_day": 2,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 4,
+          "end_day": 3,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 5,
+          "end_day": 4,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 6,
+          "end_day": 5,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 7,
+          "end_day": 6,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 8,
+          "end_day": 7,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 9,
+          "end_day": 8,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 10,
+          "end_day": 9,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 11,
+          "end_day": 10,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 12,
+          "end_day": 11,
+          "feasible": true,
+          "objective": 19.80327744402257,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": 0,
+          "last_segment_cost": 19.80327744402257
+        }
+      ],
+      "100": [
+        {
+          "end_index": 0,
+          "end_day": null,
+          "feasible": true,
+          "objective": 0.0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 1,
+          "end_day": 0,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 2,
+          "end_day": 1,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 3,
+          "end_day": 2,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 4,
+          "end_day": 3,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 5,
+          "end_day": 4,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 6,
+          "end_day": 5,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 7,
+          "end_day": 6,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 8,
+          "end_day": 7,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 9,
+          "end_day": 8,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 10,
+          "end_day": 9,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 11,
+          "end_day": 10,
+          "feasible": false,
+          "objective": null,
+          "n_changepoints": null,
+          "boundaries": null,
+          "predecessor_index": null,
+          "last_segment_cost": null
+        },
+        {
+          "end_index": 12,
+          "end_day": 11,
+          "feasible": true,
+          "objective": 19.80327744402257,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "predecessor_index": 0,
+          "last_segment_cost": 19.80327744402257
+        }
+      ]
+    },
+    "solutions": [
+      {
+        "lambda": 0,
+        "status": "global_optimum",
+        "global_optimal": true,
+        "objective": 19.80327744402257,
+        "segment_cost_total": 19.80327744402257,
+        "n_changepoints": 0,
+        "n_segments": 1,
+        "boundaries": [],
+        "segments": [
+          {
+            "start_index": 0,
+            "end_index": 12,
+            "start_day": 0,
+            "end_day_exclusive": 11,
+            "length_slots": 12,
+            "feasible": true,
+            "infeasible_reasons": [],
+            "cost": 19.80327744402257,
+            "per_center": {
+              "a": {
+                "intercept": 9.64656381486676,
+                "slope": 0.3482468443197759,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 11.680224403921784,
+                "support_record_ids": [
+                  "a-0",
+                  "a-1",
+                  "a-3",
+                  "a-4",
+                  "a-5",
+                  "a-6",
+                  "a-7",
+                  "a-8",
+                  "a-9",
+                  "a-10",
+                  "a-11"
+                ]
+              },
+              "b": {
+                "intercept": 19.74152652005175,
+                "slope": 0.3200517464424316,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 8.123053040100785,
+                "support_record_ids": [
+                  "b-0",
+                  "b-1",
+                  "b-2",
+                  "b-3",
+                  "b-5",
+                  "b-6",
+                  "b-7",
+                  "b-8",
+                  "b-9",
+                  "b-10",
+                  "b-11"
+                ]
+              },
+              "c": {
+                "intercept": 30.0,
+                "slope": 0.10000000000000019,
+                "origin_day": 0,
+                "records": 2,
+                "distinct_days": 2,
+                "weight": 8.0,
+                "residual_cost": 0.0,
+                "support_record_ids": [
+                  "c-0",
+                  "c-11"
+                ]
+              }
+            },
+            "support_record_ids": [
+              "a-0",
+              "a-1",
+              "a-10",
+              "a-11",
+              "a-3",
+              "a-4",
+              "a-5",
+              "a-6",
+              "a-7",
+              "a-8",
+              "a-9",
+              "b-0",
+              "b-1",
+              "b-10",
+              "b-11",
+              "b-2",
+              "b-3",
+              "b-5",
+              "b-6",
+              "b-7",
+              "b-8",
+              "b-9",
+              "c-0",
+              "c-11"
+            ]
+          }
+        ]
+      },
+      {
+        "lambda": 1,
+        "status": "global_optimum",
+        "global_optimal": true,
+        "objective": 19.80327744402257,
+        "segment_cost_total": 19.80327744402257,
+        "n_changepoints": 0,
+        "n_segments": 1,
+        "boundaries": [],
+        "segments": [
+          {
+            "start_index": 0,
+            "end_index": 12,
+            "start_day": 0,
+            "end_day_exclusive": 11,
+            "length_slots": 12,
+            "feasible": true,
+            "infeasible_reasons": [],
+            "cost": 19.80327744402257,
+            "per_center": {
+              "a": {
+                "intercept": 9.64656381486676,
+                "slope": 0.3482468443197759,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 11.680224403921784,
+                "support_record_ids": [
+                  "a-0",
+                  "a-1",
+                  "a-3",
+                  "a-4",
+                  "a-5",
+                  "a-6",
+                  "a-7",
+                  "a-8",
+                  "a-9",
+                  "a-10",
+                  "a-11"
+                ]
+              },
+              "b": {
+                "intercept": 19.74152652005175,
+                "slope": 0.3200517464424316,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 8.123053040100785,
+                "support_record_ids": [
+                  "b-0",
+                  "b-1",
+                  "b-2",
+                  "b-3",
+                  "b-5",
+                  "b-6",
+                  "b-7",
+                  "b-8",
+                  "b-9",
+                  "b-10",
+                  "b-11"
+                ]
+              },
+              "c": {
+                "intercept": 30.0,
+                "slope": 0.10000000000000019,
+                "origin_day": 0,
+                "records": 2,
+                "distinct_days": 2,
+                "weight": 8.0,
+                "residual_cost": 0.0,
+                "support_record_ids": [
+                  "c-0",
+                  "c-11"
+                ]
+              }
+            },
+            "support_record_ids": [
+              "a-0",
+              "a-1",
+              "a-10",
+              "a-11",
+              "a-3",
+              "a-4",
+              "a-5",
+              "a-6",
+              "a-7",
+              "a-8",
+              "a-9",
+              "b-0",
+              "b-1",
+              "b-10",
+              "b-11",
+              "b-2",
+              "b-3",
+              "b-5",
+              "b-6",
+              "b-7",
+              "b-8",
+              "b-9",
+              "c-0",
+              "c-11"
+            ]
+          }
+        ]
+      },
+      {
+        "lambda": 5,
+        "status": "global_optimum",
+        "global_optimal": true,
+        "objective": 19.80327744402257,
+        "segment_cost_total": 19.80327744402257,
+        "n_changepoints": 0,
+        "n_segments": 1,
+        "boundaries": [],
+        "segments": [
+          {
+            "start_index": 0,
+            "end_index": 12,
+            "start_day": 0,
+            "end_day_exclusive": 11,
+            "length_slots": 12,
+            "feasible": true,
+            "infeasible_reasons": [],
+            "cost": 19.80327744402257,
+            "per_center": {
+              "a": {
+                "intercept": 9.64656381486676,
+                "slope": 0.3482468443197759,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 11.680224403921784,
+                "support_record_ids": [
+                  "a-0",
+                  "a-1",
+                  "a-3",
+                  "a-4",
+                  "a-5",
+                  "a-6",
+                  "a-7",
+                  "a-8",
+                  "a-9",
+                  "a-10",
+                  "a-11"
+                ]
+              },
+              "b": {
+                "intercept": 19.74152652005175,
+                "slope": 0.3200517464424316,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 8.123053040100785,
+                "support_record_ids": [
+                  "b-0",
+                  "b-1",
+                  "b-2",
+                  "b-3",
+                  "b-5",
+                  "b-6",
+                  "b-7",
+                  "b-8",
+                  "b-9",
+                  "b-10",
+                  "b-11"
+                ]
+              },
+              "c": {
+                "intercept": 30.0,
+                "slope": 0.10000000000000019,
+                "origin_day": 0,
+                "records": 2,
+                "distinct_days": 2,
+                "weight": 8.0,
+                "residual_cost": 0.0,
+                "support_record_ids": [
+                  "c-0",
+                  "c-11"
+                ]
+              }
+            },
+            "support_record_ids": [
+              "a-0",
+              "a-1",
+              "a-10",
+              "a-11",
+              "a-3",
+              "a-4",
+              "a-5",
+              "a-6",
+              "a-7",
+              "a-8",
+              "a-9",
+              "b-0",
+              "b-1",
+              "b-10",
+              "b-11",
+              "b-2",
+              "b-3",
+              "b-5",
+              "b-6",
+              "b-7",
+              "b-8",
+              "b-9",
+              "c-0",
+              "c-11"
+            ]
+          }
+        ]
+      },
+      {
+        "lambda": 20,
+        "status": "global_optimum",
+        "global_optimal": true,
+        "objective": 19.80327744402257,
+        "segment_cost_total": 19.80327744402257,
+        "n_changepoints": 0,
+        "n_segments": 1,
+        "boundaries": [],
+        "segments": [
+          {
+            "start_index": 0,
+            "end_index": 12,
+            "start_day": 0,
+            "end_day_exclusive": 11,
+            "length_slots": 12,
+            "feasible": true,
+            "infeasible_reasons": [],
+            "cost": 19.80327744402257,
+            "per_center": {
+              "a": {
+                "intercept": 9.64656381486676,
+                "slope": 0.3482468443197759,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 11.680224403921784,
+                "support_record_ids": [
+                  "a-0",
+                  "a-1",
+                  "a-3",
+                  "a-4",
+                  "a-5",
+                  "a-6",
+                  "a-7",
+                  "a-8",
+                  "a-9",
+                  "a-10",
+                  "a-11"
+                ]
+              },
+              "b": {
+                "intercept": 19.74152652005175,
+                "slope": 0.3200517464424316,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 8.123053040100785,
+                "support_record_ids": [
+                  "b-0",
+                  "b-1",
+                  "b-2",
+                  "b-3",
+                  "b-5",
+                  "b-6",
+                  "b-7",
+                  "b-8",
+                  "b-9",
+                  "b-10",
+                  "b-11"
+                ]
+              },
+              "c": {
+                "intercept": 30.0,
+                "slope": 0.10000000000000019,
+                "origin_day": 0,
+                "records": 2,
+                "distinct_days": 2,
+                "weight": 8.0,
+                "residual_cost": 0.0,
+                "support_record_ids": [
+                  "c-0",
+                  "c-11"
+                ]
+              }
+            },
+            "support_record_ids": [
+              "a-0",
+              "a-1",
+              "a-10",
+              "a-11",
+              "a-3",
+              "a-4",
+              "a-5",
+              "a-6",
+              "a-7",
+              "a-8",
+              "a-9",
+              "b-0",
+              "b-1",
+              "b-10",
+              "b-11",
+              "b-2",
+              "b-3",
+              "b-5",
+              "b-6",
+              "b-7",
+              "b-8",
+              "b-9",
+              "c-0",
+              "c-11"
+            ]
+          }
+        ]
+      },
+      {
+        "lambda": 100,
+        "status": "global_optimum",
+        "global_optimal": true,
+        "objective": 19.80327744402257,
+        "segment_cost_total": 19.80327744402257,
+        "n_changepoints": 0,
+        "n_segments": 1,
+        "boundaries": [],
+        "segments": [
+          {
+            "start_index": 0,
+            "end_index": 12,
+            "start_day": 0,
+            "end_day_exclusive": 11,
+            "length_slots": 12,
+            "feasible": true,
+            "infeasible_reasons": [],
+            "cost": 19.80327744402257,
+            "per_center": {
+              "a": {
+                "intercept": 9.64656381486676,
+                "slope": 0.3482468443197759,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 11.680224403921784,
+                "support_record_ids": [
+                  "a-0",
+                  "a-1",
+                  "a-3",
+                  "a-4",
+                  "a-5",
+                  "a-6",
+                  "a-7",
+                  "a-8",
+                  "a-9",
+                  "a-10",
+                  "a-11"
+                ]
+              },
+              "b": {
+                "intercept": 19.74152652005175,
+                "slope": 0.3200517464424316,
+                "origin_day": 0,
+                "records": 11,
+                "distinct_days": 11,
+                "weight": 44.0,
+                "residual_cost": 8.123053040100785,
+                "support_record_ids": [
+                  "b-0",
+                  "b-1",
+                  "b-2",
+                  "b-3",
+                  "b-5",
+                  "b-6",
+                  "b-7",
+                  "b-8",
+                  "b-9",
+                  "b-10",
+                  "b-11"
+                ]
+              },
+              "c": {
+                "intercept": 30.0,
+                "slope": 0.10000000000000019,
+                "origin_day": 0,
+                "records": 2,
+                "distinct_days": 2,
+                "weight": 8.0,
+                "residual_cost": 0.0,
+                "support_record_ids": [
+                  "c-0",
+                  "c-11"
+                ]
+              }
+            },
+            "support_record_ids": [
+              "a-0",
+              "a-1",
+              "a-10",
+              "a-11",
+              "a-3",
+              "a-4",
+              "a-5",
+              "a-6",
+              "a-7",
+              "a-8",
+              "a-9",
+              "b-0",
+              "b-1",
+              "b-10",
+              "b-11",
+              "b-2",
+              "b-3",
+              "b-5",
+              "b-6",
+              "b-7",
+              "b-8",
+              "b-9",
+              "c-0",
+              "c-11"
+            ]
+          }
+        ]
+      }
+    ],
+    "path": [
+      {
+        "lambda": 0,
+        "n_changepoints": 0,
+        "boundaries": [],
+        "objective": 19.80327744402257,
+        "status": "global_optimum"
+      },
+      {
+        "lambda": 1,
+        "n_changepoints": 0,
+        "boundaries": [],
+        "objective": 19.80327744402257,
+        "status": "global_optimum"
+      },
+      {
+        "lambda": 5,
+        "n_changepoints": 0,
+        "boundaries": [],
+        "objective": 19.80327744402257,
+        "status": "global_optimum"
+      },
+      {
+        "lambda": 20,
+        "n_changepoints": 0,
+        "boundaries": [],
+        "objective": 19.80327744402257,
+        "status": "global_optimum"
+      },
+      {
+        "lambda": 100,
+        "n_changepoints": 0,
+        "boundaries": [],
+        "objective": 19.80327744402257,
+        "status": "global_optimum"
+      }
+    ]
+  },
+  "leave_one_center_out": {
+    "a": {
+      "centers": [
+        "b",
+        "c"
+      ],
+      "excluded_centers": [
+        "a"
+      ],
+      "budget_exhausted": false,
+      "segments_considered": 55,
+      "path": [
+        {
+          "lambda": 0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 8.123053040100785,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 1,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 8.123053040100785,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 5,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 8.123053040100785,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 20,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 8.123053040100785,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 100,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 8.123053040100785,
+          "status": "global_optimum"
+        }
+      ],
+      "solutions": [
+        {
+          "lambda": 0,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 8.123053040100785,
+          "segment_cost_total": 8.123053040100785,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 8.123053040100785,
+              "per_center": {
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 1,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 8.123053040100785,
+          "segment_cost_total": 8.123053040100785,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 8.123053040100785,
+              "per_center": {
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 5,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 8.123053040100785,
+          "segment_cost_total": 8.123053040100785,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 8.123053040100785,
+              "per_center": {
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 20,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 8.123053040100785,
+          "segment_cost_total": 8.123053040100785,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 8.123053040100785,
+              "per_center": {
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 100,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 8.123053040100785,
+          "segment_cost_total": 8.123053040100785,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 8.123053040100785,
+              "per_center": {
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "b": {
+      "centers": [
+        "a",
+        "c"
+      ],
+      "excluded_centers": [
+        "b"
+      ],
+      "budget_exhausted": false,
+      "segments_considered": 55,
+      "path": [
+        {
+          "lambda": 0,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 11.680224403921784,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 1,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 11.680224403921784,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 5,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 11.680224403921784,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 20,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 11.680224403921784,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 100,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 11.680224403921784,
+          "status": "global_optimum"
+        }
+      ],
+      "solutions": [
+        {
+          "lambda": 0,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 11.680224403921784,
+          "segment_cost_total": 11.680224403921784,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 11.680224403921784,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 1,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 11.680224403921784,
+          "segment_cost_total": 11.680224403921784,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 11.680224403921784,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 5,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 11.680224403921784,
+          "segment_cost_total": 11.680224403921784,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 11.680224403921784,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 20,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 11.680224403921784,
+          "segment_cost_total": 11.680224403921784,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 11.680224403921784,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 100,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 11.680224403921784,
+          "segment_cost_total": 11.680224403921784,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 11.680224403921784,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "c": {
+                  "intercept": 30.0,
+                  "slope": 0.10000000000000019,
+                  "origin_day": 0,
+                  "records": 2,
+                  "distinct_days": 2,
+                  "weight": 8.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "c-0",
+                    "c-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "c-0",
+                "c-11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "c": {
+      "centers": [
+        "a",
+        "b"
+      ],
+      "excluded_centers": [
+        "c"
+      ],
+      "budget_exhausted": false,
+      "segments_considered": 55,
+      "path": [
+        {
+          "lambda": 0,
+          "n_changepoints": 1,
+          "boundaries": [
+            6
+          ],
+          "objective": 4.547473508864641e-13,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 1,
+          "n_changepoints": 1,
+          "boundaries": [
+            6
+          ],
+          "objective": 1.0000000000004547,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 5,
+          "n_changepoints": 1,
+          "boundaries": [
+            6
+          ],
+          "objective": 5.000000000000455,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 20,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 19.80327744402257,
+          "status": "global_optimum"
+        },
+        {
+          "lambda": 100,
+          "n_changepoints": 0,
+          "boundaries": [],
+          "objective": 19.80327744402257,
+          "status": "global_optimum"
+        }
+      ],
+      "solutions": [
+        {
+          "lambda": 0,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 4.547473508864641e-13,
+          "segment_cost_total": 4.547473508864641e-13,
+          "n_changepoints": 1,
+          "n_segments": 2,
+          "boundaries": [
+            6
+          ],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 6,
+              "start_day": 0,
+              "end_day_exclusive": 5,
+              "length_slots": 6,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 0.0,
+              "per_center": {
+                "a": {
+                  "intercept": 10.000000000000004,
+                  "slope": 0.09999999999999894,
+                  "origin_day": 0,
+                  "records": 5,
+                  "distinct_days": 5,
+                  "weight": 20.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5"
+                  ]
+                },
+                "b": {
+                  "intercept": 19.999999999999996,
+                  "slope": 0.10000000000000123,
+                  "origin_day": 0,
+                  "records": 5,
+                  "distinct_days": 5,
+                  "weight": 20.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-3",
+                "a-4",
+                "a-5",
+                "b-0",
+                "b-1",
+                "b-2",
+                "b-3",
+                "b-5"
+              ]
+            },
+            {
+              "start_index": 6,
+              "end_index": 12,
+              "start_day": 6,
+              "end_day_exclusive": 11,
+              "length_slots": 6,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 4.547473508864641e-13,
+              "per_center": {
+                "a": {
+                  "intercept": 12.6,
+                  "slope": 0.1,
+                  "origin_day": 6,
+                  "records": 6,
+                  "distinct_days": 6,
+                  "weight": 24.0,
+                  "residual_cost": 4.547473508864641e-13,
+                  "support_record_ids": [
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "b": {
+                  "intercept": 22.400000000000002,
+                  "slope": 0.1,
+                  "origin_day": 6,
+                  "records": 6,
+                  "distinct_days": 6,
+                  "weight": 24.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-10",
+                "a-11",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "b-10",
+                "b-11",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 1,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 1.0000000000004547,
+          "segment_cost_total": 4.547473508864641e-13,
+          "n_changepoints": 1,
+          "n_segments": 2,
+          "boundaries": [
+            6
+          ],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 6,
+              "start_day": 0,
+              "end_day_exclusive": 5,
+              "length_slots": 6,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 0.0,
+              "per_center": {
+                "a": {
+                  "intercept": 10.000000000000004,
+                  "slope": 0.09999999999999894,
+                  "origin_day": 0,
+                  "records": 5,
+                  "distinct_days": 5,
+                  "weight": 20.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5"
+                  ]
+                },
+                "b": {
+                  "intercept": 19.999999999999996,
+                  "slope": 0.10000000000000123,
+                  "origin_day": 0,
+                  "records": 5,
+                  "distinct_days": 5,
+                  "weight": 20.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-3",
+                "a-4",
+                "a-5",
+                "b-0",
+                "b-1",
+                "b-2",
+                "b-3",
+                "b-5"
+              ]
+            },
+            {
+              "start_index": 6,
+              "end_index": 12,
+              "start_day": 6,
+              "end_day_exclusive": 11,
+              "length_slots": 6,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 4.547473508864641e-13,
+              "per_center": {
+                "a": {
+                  "intercept": 12.6,
+                  "slope": 0.1,
+                  "origin_day": 6,
+                  "records": 6,
+                  "distinct_days": 6,
+                  "weight": 24.0,
+                  "residual_cost": 4.547473508864641e-13,
+                  "support_record_ids": [
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "b": {
+                  "intercept": 22.400000000000002,
+                  "slope": 0.1,
+                  "origin_day": 6,
+                  "records": 6,
+                  "distinct_days": 6,
+                  "weight": 24.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-10",
+                "a-11",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "b-10",
+                "b-11",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 5,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 5.000000000000455,
+          "segment_cost_total": 4.547473508864641e-13,
+          "n_changepoints": 1,
+          "n_segments": 2,
+          "boundaries": [
+            6
+          ],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 6,
+              "start_day": 0,
+              "end_day_exclusive": 5,
+              "length_slots": 6,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 0.0,
+              "per_center": {
+                "a": {
+                  "intercept": 10.000000000000004,
+                  "slope": 0.09999999999999894,
+                  "origin_day": 0,
+                  "records": 5,
+                  "distinct_days": 5,
+                  "weight": 20.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5"
+                  ]
+                },
+                "b": {
+                  "intercept": 19.999999999999996,
+                  "slope": 0.10000000000000123,
+                  "origin_day": 0,
+                  "records": 5,
+                  "distinct_days": 5,
+                  "weight": 20.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-3",
+                "a-4",
+                "a-5",
+                "b-0",
+                "b-1",
+                "b-2",
+                "b-3",
+                "b-5"
+              ]
+            },
+            {
+              "start_index": 6,
+              "end_index": 12,
+              "start_day": 6,
+              "end_day_exclusive": 11,
+              "length_slots": 6,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 4.547473508864641e-13,
+              "per_center": {
+                "a": {
+                  "intercept": 12.6,
+                  "slope": 0.1,
+                  "origin_day": 6,
+                  "records": 6,
+                  "distinct_days": 6,
+                  "weight": 24.0,
+                  "residual_cost": 4.547473508864641e-13,
+                  "support_record_ids": [
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "b": {
+                  "intercept": 22.400000000000002,
+                  "slope": 0.1,
+                  "origin_day": 6,
+                  "records": 6,
+                  "distinct_days": 6,
+                  "weight": 24.0,
+                  "residual_cost": 0.0,
+                  "support_record_ids": [
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-10",
+                "a-11",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "b-10",
+                "b-11",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 20,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 19.80327744402257,
+          "segment_cost_total": 19.80327744402257,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 19.80327744402257,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9"
+              ]
+            }
+          ]
+        },
+        {
+          "lambda": 100,
+          "status": "global_optimum",
+          "global_optimal": true,
+          "objective": 19.80327744402257,
+          "segment_cost_total": 19.80327744402257,
+          "n_changepoints": 0,
+          "n_segments": 1,
+          "boundaries": [],
+          "segments": [
+            {
+              "start_index": 0,
+              "end_index": 12,
+              "start_day": 0,
+              "end_day_exclusive": 11,
+              "length_slots": 12,
+              "feasible": true,
+              "infeasible_reasons": [],
+              "cost": 19.80327744402257,
+              "per_center": {
+                "a": {
+                  "intercept": 9.64656381486676,
+                  "slope": 0.3482468443197759,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 11.680224403921784,
+                  "support_record_ids": [
+                    "a-0",
+                    "a-1",
+                    "a-3",
+                    "a-4",
+                    "a-5",
+                    "a-6",
+                    "a-7",
+                    "a-8",
+                    "a-9",
+                    "a-10",
+                    "a-11"
+                  ]
+                },
+                "b": {
+                  "intercept": 19.74152652005175,
+                  "slope": 0.3200517464424316,
+                  "origin_day": 0,
+                  "records": 11,
+                  "distinct_days": 11,
+                  "weight": 44.0,
+                  "residual_cost": 8.123053040100785,
+                  "support_record_ids": [
+                    "b-0",
+                    "b-1",
+                    "b-2",
+                    "b-3",
+                    "b-5",
+                    "b-6",
+                    "b-7",
+                    "b-8",
+                    "b-9",
+                    "b-10",
+                    "b-11"
+                  ]
+                }
+              },
+              "support_record_ids": [
+                "a-0",
+                "a-1",
+                "a-10",
+                "a-11",
+                "a-3",
+                "a-4",
+                "a-5",
+                "a-6",
+                "a-7",
+                "a-8",
+                "a-9",
+                "b-0",
+                "b-1",
+                "b-10",
+                "b-11",
+                "b-2",
+                "b-3",
+                "b-5",
+                "b-6",
+                "b-7",
+                "b-8",
+                "b-9"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "stability": {
+    "by_lambda": {
+      "0": {
+        "boundaries": [],
+        "boundary_detail": [],
+        "centers_whose_removal_removes_all_changepoints": [],
+        "one_center_contributes_all_signal": false
+      },
+      "1": {
+        "boundaries": [],
+        "boundary_detail": [],
+        "centers_whose_removal_removes_all_changepoints": [],
+        "one_center_contributes_all_signal": false
+      },
+      "5": {
+        "boundaries": [],
+        "boundary_detail": [],
+        "centers_whose_removal_removes_all_changepoints": [],
+        "one_center_contributes_all_signal": false
+      },
+      "20": {
+        "boundaries": [],
+        "boundary_detail": [],
+        "centers_whose_removal_removes_all_changepoints": [],
+        "one_center_contributes_all_signal": false
+      },
+      "100": {
+        "boundaries": [],
+        "boundary_detail": [],
+        "centers_whose_removal_removes_all_changepoints": [],
+        "one_center_contributes_all_signal": false
+      }
+    },
+    "boundary_lambda_occurrence": [],
+    "causal_note": "变点仅标识加权测量关系的统计改变；与换试剂时间重合是关联，不是因果证据。"
+  },
+  "method_notes": [
+    "段费用=各中心独立加权最小二乘(截距+斜率, 原点=段首日)的加权残差平方和之和；缺测不补零，任一中心不满足 min_points 或设计矩阵秩不足则整段不可用。",
+    "动态规划在共同边界上求全局最小：目标=总段费用+lambda*变点数；同分先比目标值(tie_tolerance 容差)，再比少变点，再比边界日期字典序。",
+    "段费用缓存的合法条件：费用只依赖区间内原始观测、固定已知方差与段首日，与分段方案和 lambda 无关，跨 lambda 与 DP 路径复用是精确复用而非近似。",
+    "未使用任何基于费用单调性的剪枝（如 PELT 类只对常均值/凸费用成立的不等式）；本模型每中心带截距与斜率且观测稀疏，这类剪枝不等式不适用，仅做合法性过滤。",
+    "预算 max_segments_considered 按新评估的候选 (i,j) 段计数，缓存命中不重复计数；耗尽即标记 budget_exhausted，对应解 status 非 global_optimum，不声明全局完成。",
+    "换日历原点不改变 t=day-origin 与费用；同日重复观测合并只改变一个与分段无关的组内常数项 within_ss，合并前后的最优分段与目标排序一致。",
+    "逐中心剔除保持同一日历与参数完整重算；若剔除某中心后所有变点消失，则该中心贡献全部信号，变点是关联证据而非试剂导致的因果证据。"
+  ]
+}
